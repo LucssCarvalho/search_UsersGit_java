@@ -40,7 +40,7 @@ public class UserActivity extends AppCompatActivity {
         userView = findViewById(R.id.userVal);
         orgView = findViewById(R.id.orgVal);
         bioView = findViewById(R.id.bioVal);
-        fwsView = findViewById(R.id.fwgVal);
+        fwsView = findViewById(R.id.fwsVal);
         fwgView = findViewById(R.id.fwgVal);
         repView = findViewById(R.id.repVal);
         avatarImage = findViewById(R.id.imageView);
