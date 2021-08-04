@@ -26,12 +26,16 @@
         <EditText
             android:id="@+id/editTextUser"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
+            android:layout_height="41dp"
             android:layout_marginTop="20dp"
-            android:text="username"
-            />
+            android:layout_weight=".75"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:hint="username"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/grey"
+            tools:ignore="InvalidId" />
 
         <Button
             android:id="@+id/btnSearch"
@@ -41,5 +45,7 @@
             android:backgroundTint="@color/white"
             android:text="search" />
     </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
