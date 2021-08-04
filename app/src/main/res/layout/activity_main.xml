@@ -163,7 +163,6 @@
         </LinearLayout>
 
         <TextView
-            android:textColor="#FFFFFF"
             android:id="@+id/orgVal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -173,10 +172,11 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#FFFFFF" />
 
         <TextView
-            android:textColor="#FFFFFF"
             android:id="@+id/bioVal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -186,7 +186,9 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
