@@ -1,4 +1,4 @@
-package com.carvalho.githubjava.helper;
+package com.carvalho.githubjava;
 
 public class U {
     public static final String BASE_URL = "https://api.github.com";

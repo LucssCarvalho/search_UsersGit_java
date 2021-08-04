@@ -1,4 +1,4 @@
-package com.carvalho.githubjava.domain;
+package com.carvalho.githubjava;
 
 import java.io.Serializable;
 
